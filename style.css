@@ -208,7 +208,7 @@ body{
 .title-Objectives li  {
 
   color: #024f4f;
-  text-align: center;
+  text-align: start;
   font-size: 15px; 
   list-style: none ;
  flex-direction: row;
