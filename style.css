@@ -6,6 +6,20 @@ body{
     margin: 0;
 }
 
+.fares12 {
+
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #ffffff;
+  background-color:#024f4f ;
+  cursor: pointer;
+ }
 
 .navbar{
 
@@ -209,7 +223,7 @@ body{
 .title-Objectives li  {
 
   color: #024f4f;
-  text-align:start;
+  text-align: start;
   font-size: 15px; 
   list-style: none ;
  flex-direction: row;
@@ -325,6 +339,70 @@ body{
 
   width: 70px;
 }
+
+
+.Function {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  max-width: 1400px;
+  margin:auto;
+  border-bottom: 1px solid #024f4f ;
+  width: 90%;
+}
+
+
+.title-Function h3 {
+
+  display: inline-flex;
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #024f4f;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.title-Function h2 {
+
+  color: #024f4f;
+}
+
+.title-Function li  {
+
+  color: #024f4f;
+  text-align: center;
+  font-size: 15px; 
+  list-style: none ;
+ flex-direction: column;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ max-width: 95%;
+}
+
+.title-Function li p  {
+
+font-size: 20px;
+}
+
+.image-Function{
+
+  width: 150px;
+}
+
+.title-Function ul {
+
+  margin-top: 50px;
+
+
+}
+
+
 
 
 
